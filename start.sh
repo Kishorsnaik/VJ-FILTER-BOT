@@ -8,7 +8,7 @@ then
   git clone https://github.com/VJBots/Tech_KF_bot.git /Tech_KF_bot 
 else
   echo "Cloning Custom Repo from $UPSTREAM_REPO "
-  git clone $UPSTREAM_REPO /VJ-FILTER-BOT 
+  git clone $UPSTREAM_REPO /Tech_KF_bot 
 fi
 cd /Tech_KF_bot 
 pip3 install -U -r requirements.txt
